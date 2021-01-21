@@ -1,2 +1,7 @@
 Git Initialize 
 you need to inialize Git any time you open a new project {Git init}
+
+git status is a command to know the status or condition.
+
+(main) is branch name.
+git add .
