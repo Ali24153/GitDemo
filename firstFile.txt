@@ -11,3 +11,14 @@ Local: your computer
 Cloud: GitHub
 
 touch Filename.txt (will create a file)
+
+when you change your code from your local machine to cloud 
+
+git status
+git add .
+git commit -m "explanation"
+git push origin main
+
+After you clone (you only need to give this command- git pull)
+
+
