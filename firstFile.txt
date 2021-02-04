@@ -24,3 +24,8 @@ After that go to your eclips file then open project from file system select the 
 After you clone (you only need to give this commands- git stash then git pull)
 
 README file is place where to give the project description.
+
+git branch (to find out which brach are in) in real life you never work in main brach
+git checkout -b atadjedit (to create you own branch avoid conflict)
+git checkout main (to return to the main branch)
+git checkout atadjedit(return to my branch)
