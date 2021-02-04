@@ -12,12 +12,16 @@ Cloud: GitHub
 
 touch Filename.txt (will create a file)
 
-when you change your code from your local machine to cloud 
+when you push code from your local machine to cloud 
 
 git status
 git add .
 git commit -m "explanation"
 git push origin main
+
+when you pull code
+git stash (to avoid conflict)
+git pull
 
 Cloning Open your git bach from workspace and and insert git colne (URL from code copied from github repository
 After that go to your eclips file then open project from file system select the projedt name and finish
