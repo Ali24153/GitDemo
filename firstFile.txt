@@ -24,7 +24,7 @@ git stash (to avoid conflict)
 git pull
 
 Cloning Open your git bach from workspace and and insert git colne (URL from code copied from github repository
-After that go to your eclips file then open project from file system select the projedt name and finish
+After that go to your ide and import it --  file then open project from file system select the projedt name and finish
 After you clone (you only need to give this commands- git stash then git pull)
 
 README file is place where to give the project description.
