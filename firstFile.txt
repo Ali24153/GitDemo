@@ -13,10 +13,12 @@ Cloud: GitHub
 touch Filename.txt (will create a file)
 
 when you push code from your local machine to cloud 
-
-git status
+when you add the project to git first time
+git init 
+git status/optional
 git add .
 git commit -m "explanation"
+git remote add origin https://github.com/Ali24153/WebAutomation.git
 git push origin main
 
 when you pull code
