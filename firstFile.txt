@@ -21,7 +21,7 @@ git commit -m "explanation"
 git remote add origin https://github.com/Ali24153/WebAutomation.git
 git push origin main
 
-when you pull code
+when you pull code from other branch
 git stash (to avoid conflict)
 git pull
 
@@ -38,3 +38,27 @@ git checkout atadjedit(return to my branch)
 <<before  you switch to another brach you should do git add . first if to save your new code)
 and when you push (git push origin atadjedit) from your local branch to the remote branch.
 git pull origin main (to pull the code from the main branch) but before you do that you have to save your work by git add ./and commit then push
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+in real lofe your brach name will be your ticket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+-to get the latest code from the remote main branch to your local brach is <<git pull origin main>> 
+-you can resolve by Web editor just delect the name of the your branch and the main branch with all the symboles and click on (Mark as Resolve) button on the top
+you can also resolve inside the project by first << git pull origin main >> and you will see in what class is the conflict and navigate to the class and just delet uncessary symboles
+then git add .-git commit -m " merge conflict resolved"- git push origin ali
+
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+As team you can work in any class as your necessity and if you have a conflict before after it was reviwed <<this branch has a conflict that must be resolved>> 
+
+after you send the code from your local machine to the remote machine(github repository) we need to request compare& pull request (pull request from ali24153 branch to main branch)
+_if you did a mistak click on close pull request then click open pull request
+-click on compare & pull request button
+-give a brieve discreption why ypu want to send the pull and request(ex: Class name and adal test functionalities need to be added)
+-click on review button and select your team lead (after he approves your code then you are allowed to added to the main branch) 
+-also you can asseign(optional) your team member by clicking on asseignees button
+-in the comment section just add a brief description about what you did methods .........then you click on pull request button
+-label means what is this pull request about ( Ex: is it about bug fix, duplicate, documentation... when we just run the code we choose enhancement )
+-After it is rejected you need to fix what needed then you push your code write under comment(Ex empty line removed based on the comment)
+-After you receive the approval select Creat Merge Commit under Merge Pull Request then  click on Merge Pull Request then finally confirm 
+_After that you have to delet your remote branch on the remote host(github) and add comments

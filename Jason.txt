@@ -1,0 +1,40 @@
+Jason File extension is .json
+
+JSON(javaScript Object Notation) is a DATA FORMAT used for API testing
+
+A Jason Document may contains text, curly braces, Square braces,colons
+Commas, double,quotes ans a few other characters.
+
+
+A Valid JSON documents can contains two Structures:
+
+1-Object surround by curly braces {
+"fisrtName":"Amar",
+"LastName": "Tadjedit",  // we only add comma if we want to add more properties.
+"Address":[{"HomeAddress":"Columbus, OH},// use curly braces to keep as an object
+           {"HomeCountry": "Ibdache,Algeria"},
+           {"HomeStreet":"Dierker Rd"}
+
+
+] // if we use multiple value for one properties we use square braces just like an array
+
+
+
+
+}.
+2-Array or Ordered list surrounded by curly braces["StudentID":{"firstName":"Ali"},
+                                                               {"LastName":"Tadjedit"}].
+
+JasonDataType:String "FirstName":"Amar"
+             :Bolean "IsHeBoy": True
+             :Number  "age": 1
+             :emty/null
+             :Array:
+              :Object
+
+EX: {"FirstName":"Amar",
+"Age":[12,45,66,1,47]}
+To get access to object (MyObj.FirstName)/ (X=MyObj.Age[3])
+
+//delet
+delet.MyObj[2]

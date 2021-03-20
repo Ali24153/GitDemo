@@ -1,0 +1,33 @@
+ctrl+alt+L to formate your code(alignement)
+
+Sapces only one empty line between each methods
+
+in github the pink line means deleted and green color means added
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Agil/scrum Team: 9 (Team AdalLinkTams)
+Scrum master
+BA-1 User Acceptance Testing UAT
+PO-1 (Project owner)
+DEV_3
+Tech Lead /Dev Lead-1
+QA-1: Manual and Automation
+DevOps-1
+
+
+Agile Team 20 Members 
+Scrum Master-1
+BA-1
+PO-1
+Dev-10
+Tech Lead/ Dev Lead -1
+QA-3 (1QA lead)
+DevOps-2: Developer who maintain aoperation of your system architecture/System Engineer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+when you Assigned to test any functianlity when the Dev still developing you need to design 
+a test plan then test cases then you have when it comes to test env then qa you start executing
+ your test cases and if there is a bug you log a defect and assign to the developer when the defect is fixed 
+it will assign to LTQA lont term qa environement. and they will do regression testing
+After that if everything is fine it goes to CERT env if there is one else it goes to prod env/end user/uat where it will looked by 
+BO(business owner, Specially (product owner,business analyst)) they look for the functionality if it works as required and if they identify a bug they will assign Hot or Quick fix
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Requirements 
