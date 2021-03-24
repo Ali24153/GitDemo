@@ -1,0 +1,3 @@
+When you create a new project we need to create (git ignore file)
+(right click on the prject name select git ignore then choose java select ignore file  and generate then ignore /.idea , *.iml
+comment or not ignore  jar zip and tar by adding # on the front )
